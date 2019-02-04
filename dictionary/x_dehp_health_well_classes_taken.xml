@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Classes taken" max_length="40" name="x_dehp_health_well_classes_taken" type="collection">
+        <element label="Class Name" max_length="100" name="class_name" type="string"/>
+        <element label="Date of Class" max_length="40" name="date_of_class" type="glide_date"/>
+        <element label="Location" max_length="100" name="location" type="string"/>
+        <element label="Submission Instance" max_length="32" name="submission_instance" reference="x_dehp_health_well_submission_instance" type="reference"/>
+        <element label="Teacher" max_length="100" name="teacher" type="string"/>
+        <index name="index">
+            <element name="submission_instance"/>
+        </index>
+    </element>
+</database>

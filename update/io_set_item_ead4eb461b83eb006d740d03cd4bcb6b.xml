@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="OnSite Workout Access and Waiver for Dean Medical Group and SSM (Facilities Only)">cfb46f061b83eb006d740d03cd4bcb6c</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-18 19:32:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ead4eb461b83eb006d740d03cd4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>confirm an attachment.OnSite Workout Access and Waiver (DMG)</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>io_set_item_ead4eb461b83eb006d740d03cd4bcb6b</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-18 19:32:14</sys_updated_on>
+        <variable_set display_value="confirm an attachment">351bd7011b8fe7006d740d03cd4bcbf6</variable_set>
+    </io_set_item>
+</record_update>

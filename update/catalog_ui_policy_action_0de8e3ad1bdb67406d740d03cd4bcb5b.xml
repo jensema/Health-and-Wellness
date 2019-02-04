@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Health and Wellness - Weight Watchers Reimbursement ">d4111b3f1b7a27006d740d03cd4bcbb1</catalog_item>
+        <catalog_variable>IO:efb5fcad1b576740a27f437ead4bcb1b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-29 16:48:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0de8e3ad1bdb67406d740d03cd4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reimbursementAmount</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0de8e3ad1bdb67406d740d03cd4bcb5b</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-29 16:48:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show imbursement amount on task">08e534ad1b576740a27f437ead4bcbd2</ui_policy>
+        <variable>reimbursementAmount</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

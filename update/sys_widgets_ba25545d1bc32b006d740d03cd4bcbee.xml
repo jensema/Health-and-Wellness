@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_widgets">
+    <sys_widgets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Health and Wellness Items</name>
+        <order>100</order>
+        <renderer/>
+        <renderer_type>javascript</renderer_type>
+        <roles/>
+        <script><![CDATA[function sections() {
+	return {
+		'Reimbursements':            { 'name': 'health_and_wellness_widget_reimbursements'},
+		'Smoking Status Statements': { 'name': 'health_and_wellness_widget_smoking_statements'},
+		//'Material Review':               { 'name': 'compliance_widget_material_review'},
+		//'Submit a Question':             { 'name': 'compliance_widget_question'},
+		//'BAA Request':                   { 'name': 'compliance_widget_baa_review'},
+		//'FDR Request':                   { 'name': 'compliance_widget_fdr_eval'},
+		//'Project Review':                { 'name': 'compliance_widget_proj_review'}
+	};
+}
+
+function render() {
+	var widgetContents = '';
+	try {
+		var scope = gs.getCurrentScopeName();
+		var page = renderer.getPreference('name');
+		widgetContents = renderer.getRenderedPage(scope + '_' +  page);
+	}
+	catch (e) {
+		gs.error("When building Widget, found the following error: \n" + e);
+		widgetContents = "Error rendering widget.";
+	}
+	return widgetContents;
+}]]></script>
+        <sys_class_name>sys_widgets</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-15 20:32:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ba25545d1bc32b006d740d03cd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health and Wellness Items</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_widgets_ba25545d1bc32b006d740d03cd4bcbee</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-15 20:32:12</sys_updated_on>
+        <top_level_category>false</top_level_category>
+    </sys_widgets>
+</record_update>

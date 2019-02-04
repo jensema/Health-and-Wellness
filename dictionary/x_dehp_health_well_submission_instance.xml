@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Submission Instance" max_length="40" name="x_dehp_health_well_submission_instance" type="collection">
+        <element choice="1" label="Answer" max_length="40" name="answer" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tobacco Free" value="Tobacco Free"/>
+                <element inactive_on_update="false" label="Tobacco User - No Plan to Quit" value="Tobacco User - No Plan to Quit"/>
+                <element inactive_on_update="false" label="Tobacco User - Plan to Quit" value="Tobacco User - Plan to Quit"/>
+            </choice>
+        </element>
+        <element label="Classes Completed" max_length="40" name="classes_completed" type="integer"/>
+        <element function_definition="glidefunction:concat(user.name, &quot; - &quot; ,sys_created_on)" function_field="true" label="Display Name" max_length="256" name="display_name" read_only="true" type="string"/>
+        <element label="Fee Assessed" max_length="40" name="fee_assessed" type="boolean"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

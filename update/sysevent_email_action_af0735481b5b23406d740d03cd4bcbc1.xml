@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Requested Item" name="Requested Item">331c2cc337820300d914a9c2b3990ea0</category>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_dehp_health_well.sc_req_item.workout_n</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>Health and Wellness Via ServiceNow</from>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>All,&nbsp;</p>
+<p>The access to the On-Site workout center located at 802 Deming Way has been provided by security and the waiver has been submitted for ${event.parm2}.</p>
+<p>If ${event.parm2} is not a DHP resource, their waiver form is attached to this email so it can be filed and kept for our records.</p>
+<p>&nbsp;</p>
+<p>Regards,&nbsp;</p>
+<p>DHP Health and Wellness</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>H+W Onsite Waiver for HR and Legal</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>c9d08a766fd70100b85fcb512e3ee471,b0c2a4666f570100b85fcb512e3ee481</recipient_users>
+        <reply_to>dhp.healthandwellness@deancare.com</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>On-Site Workout Center Access Granted and Waiver Form Submitted</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-24 16:43:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>af0735481b5b23406d740d03cd4bcbc1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>H+W Onsite Waiver for HR and Legal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sysevent_email_action_af0735481b5b23406d740d03cd4bcbc1</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-31 18:20:01</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <u_header_image/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

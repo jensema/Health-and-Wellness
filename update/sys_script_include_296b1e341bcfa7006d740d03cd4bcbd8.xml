@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dehp_health_well.HealthandWellnessUtil</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>HealthandWellnessUtil</name>
+        <script><![CDATA[var HealthandWellnessUtil = Class.create();
+HealthandWellnessUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+	
+	getQuarter: function(){
+		var quarter = this.getParameter('sysparm_quarter');
+		var gr = new GlideRecord('cmn_schedule_span');
+		if (gr.get(quarter)){
+			var json = new global.JSON();
+			var results = {
+				"start_date_time": gr.getValue("start_date_time"),
+				"end_date_time": gr.getValue("end_date_time"),
+			};
+			return json.encode(results);
+		}
+		else {
+			gs.addErrorMessage("failed to find Scheduled Entry");
+			return null;
+		}
+	},
+	
+	hasAttachment: function(){
+		try {
+			//var my_table = this.getParameter('sysparm_table');
+			var my_id = this.getParameter('sysparm_id');
+			var rowcount=0;
+			/*
+			var gr = new GlideRecord("sc_cart_item");
+			gr.get(my_id);
+			gs.addInfoMessage(gr.hasAttachments());
+			
+ 			*/
+			var gr = new GlideRecord('sys_attachment');
+			
+			gr.addQuery('table_name', 'sc_cart_item');
+			gr.addQuery('table_sys_id', 'my_id');
+			
+			gr.query();
+			while (gr.next()) {
+				rowcount++;
+			}
+			gs.addInfoMessage(rowcount);
+			
+			//	gs.addInfoMessage(gr.sys_id);
+			if (!gr.next()){
+				//	gs.addInfoMessage("No Attachment - SI");
+				return false;
+			}
+			else {
+				//gs.addInfoMessage('Attachment - SI');
+				return true;
+			}
+			
+		} catch(e){
+			gs.addErrorMessage(e);
+		}
+	},
+});
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-14 17:34:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>296b1e341bcfa7006d740d03cd4bcbd8</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>HealthandWellnessUtil</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_script_include_296b1e341bcfa7006d740d03cd4bcbd8</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-17 19:29:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

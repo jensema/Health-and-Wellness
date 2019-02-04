@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Misc.">191687b31b7a27006d740d03cd4bcba0</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time/>
+        <description><![CDATA[<h2>Tobacco Status Statement - Effective for Employees Insured as of August 1st</h2>
+<p>As part of Dean Health Plan&rsquo;s ongoing commitment to employee wellness, employees insured through our company-sponsored health plan need to file a NEW Tobacco Status Statement.</p>
+<p>Please select one of the three options. This Tobacco Status Statement is used to determine if you will be assessed the tobacco fee based on your tobacco-use status. Tobacco products include cigarettes, e-cigarettes, cigars, pipes, and any form of smokeless tobacco (i.e. "chew"). Tobacco use if defined as any use of tobacco, regardless of the frequency or location, within the past 6 months.</p>
+<p>These statements determine if an employee will be exempt from a $20/month ($240/year) tobacco fee. Tobacco Status Statements will be submitted electronically. Please choose the option below that applies to your situation.</p>
+<p><strong style="box-sizing: border-box;">Your options are:</strong></p>
+<ul>
+<li>I am a tobacco free and will remain tobacco free through December 31 of next year. No tobacco wellness fee will be assessed on next year's plan.</li>
+<li>I use tobacco and do NOT plan to participate in the&nbsp;<a title="Quit for Life program" href="https://www.deancare.com/wellness/health-and-wellness/quit-for-life" target="_blank"><strong>Quit for Life program</strong></a>. I understand that I will be charged a $20/month tobacco fee on my paychecks in next year's plan, beginning January 1st, recognizing that there are additional health care costs associated with tobacco use.</li>
+<li>I use tobacco but agree to enroll in the <a href="https://www.deancare.com/wellness/health-and-wellness/quit-for-life" target="_blank"><strong>Quit for Life program</strong></a> AND complete at least three out of five coaching calls by November 30th of this year. The&nbsp;<strong title="Quit for Life program">Quit for Life program</strong> is a Dean Health Plan Insurance Benefit and can be accessed at 1-866-QUIT-4-LIFE or <a title="deancare.com/quitforlife" href="http://deancare.com/quitforlife" target="_blank">deancare.com/quitforlife</a>. I authorize Dean Health Plan and/or its designees to disclose to my employer whether or not I have completed the required calls, so that my employer may administer its wellness program. If I submit this statement and successfully complete the requirements, no tobacco fee will be assessed in next year's plan. If I'm unable to complete the requirements, include the coaching calls, and an alternative quit plan is not established in consult with my personal physician, I will be assessed the $20/month tobacco fee next year, and will have the opportunity to try again.</li>
+</ul>
+<h3>Acknowledgement Notice:</h3>
+<ol>
+<li>I certify that I have truthfully selected the appropriate answer below, which accurately reflects my use of tobacco products within the past six months.</li>
+<li>I certify that the below responses are true and I promise that if my behavior changes so that this statement becomes incorrect (because, for example, I use tobacco after promising to be tobacco free), I will file a new, correct statement with DHP Health and Wellness within five (5) business days of the status change. This tobacco statement remains on file at Dean Health Plan and I understand that submitting a false statement constitutes falsification of Company Records and may lead to discipline, up to and including termination of employment.</li>
+<li>I understand that Interra Health&reg; may report back to my employer my certification of tobacco-use status for the purposes of administering its wellness program, including dispersing wellness incentives.</li>
+</ol>
+<p>By clicking "Submit", I certify that I have read and understood the information contained in this Tobacco Status Statement and that I agree with the statements listed above.</p>
+<p><strong>Questions?</strong> Visit DHP's FAQ page of email DHP.HealthandWellness@deancare.com</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Yearly Smoking Attestation</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture>05180f371b7a27006d740d03cd4bcb4e</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=065687f31b7a27006d740d03cd4bcbcb&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>9def3e7f1b3a27006d740d03cd4bcb82</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[//current.u_answer = producer.answer;
+current.user = gs.getUserID();]]></script>
+        <short_description>Tobacco Attestation (Status Statement)</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-11 17:40:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>065687f31b7a27006d740d03cd4bcbcb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Yearly Smoking Attestation</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sc_cat_item_producer_065687f31b7a27006d740d03cd4bcbcb</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-29 16:12:08</sys_updated_on>
+        <table_name>x_dehp_health_well_submission_instance</table_name>
+        <template/>
+        <type>item</type>
+        <u_cost_center_owner/>
+        <u_request_level_approval>false</u_request_level_approval>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=065687f31b7a27006d740d03cd4bcbcb"/>
+    <fx_price action="delete_multiple" query="id=065687f31b7a27006d740d03cd4bcbcb"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>065687f31b7a27006d740d03cd4bcbcb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-11 17:40:00</sys_created_on>
+        <sys_id>d20847371b7a27006d740d03cd4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-11 17:40:00</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>065687f31b7a27006d740d03cd4bcbcb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-11 17:40:00</sys_created_on>
+        <sys_id>d60847371b7a27006d740d03cd4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-11 17:40:00</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height>72</image_height>
+        <image_width>72</image_width>
+        <size_bytes>3560</size_bytes>
+        <size_compressed>3583</size_compressed>
+        <state/>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-11 17:40:11</sys_created_on>
+        <sys_id>05180f371b7a27006d740d03cd4bcb4e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-11 17:40:11</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>065687f31b7a27006d740d03cd4bcbcb</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="05180f371b7a27006d740d03cd4bcb4e">05180f371b7a27006d740d03cd4bcb4e</sys_attachment>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-11 17:40:11</sys_created_on>
+        <sys_id>45180f371b7a27006d740d03cd4bcb4e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>4764</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="05180f371b7a27006d740d03cd4bcb4e">05180f371b7a27006d740d03cd4bcb4e</sys_attachment>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-11 17:40:11</sys_created_on>
+        <sys_id>c5180f371b7a27006d740d03cd4bcb4e</sys_id>
+    </sys_attachment_doc>
+</record_update>

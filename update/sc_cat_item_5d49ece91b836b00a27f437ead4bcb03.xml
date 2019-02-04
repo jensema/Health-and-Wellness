@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Misc.">191687b31b7a27006d740d03cd4bcba0</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time/>
+        <description><![CDATA[<h2 style="text-align: center;">Acknowledgement and Release</h2>
+<p>I acknowledge that my use of Dean Health Plan, Inc.'s ("DHP's") fitness center and its equipment located at 802 Deming Way/744 Heartland Trail in Madison, Wisconsin (the "Center") and my participation in any Center-related activity is entirely voluntary and will occur only during my non-working hours. I also acknowledge that I will not receive any compensation or other consideration for my use of the Center or for my participation in any Center-related activities. I acknowledge that such use or participation is unrelated to, and does not fall within the scope of, my employment with DHP, Dean Health Systems, Inc. ("DHS") or SSM Health Care of Wisconsin, Inc. ("SSMWI"). If I am a non-employee contractor or agent who provides services to DHP, DHS or SSMWI, reference to "my employment with" in the preceding sentence is replaced with "my services to."</p>
+<p>I also acknowledge that the sole purpose of the Center is to improve my physical well-being and that if I am hurt or injured in connection with my use of the Center or participation in any Center-related activities, my injury will not be considered a work injury and I will not be able to recover any worker's compensation benefits related to that injury.</p>
+<p>I acknowledge that I am solely responsible for my actions at the Center and in any Center-related activities, and I recognize that neither the existence of the Center nor the fact that I am participating in any Center-related activities mean that DHP, DHS or SSMWI is in any way certifying that I have the ability to successfully use the Center or participate in such activities. I understand there are dangers and risks associated with my use of the Center and participation in Center-related activities. These risks may include, but are not limited to, strains, sprains, falls or other conditions that could cause serious injury or death. I acknowledge that I should consult a physician or other healthcare professional before beginning any exercise program. I and I alone have determined that I am able to use the Center and participate in any Center-related activities. I release and discharge DHP, DHS and SSMWI and their officers, directors, agents and employees from any liability or damages whatsoever for any injury or damage of any kind that in any way relates to or may arise out of my use of the Center or my participation in Center-related activity.</p>
+<p>Finally, I have carefully read this acknowledgement and release, understand its contents and terms and agree to them freely and voluntarily.</p>
+<p>By clicking "Submit", I certify that I have read and understood the information contained in this acknowledgement and release and that I agree with the statements listed above.</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta>workout&#13;
+gym&#13;
+</meta>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>OnSite Workout Access and Waiver for Dean Health Plan</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=5d49ece91b836b00a27f437ead4bcb03&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>9def3e7f1b3a27006d740d03cd4bcb82</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>OnSite Workout Access and Waiver</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-16 16:39:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5d49ece91b836b00a27f437ead4bcb03</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>OnSite Workout Access and Waiver for Dean Health Plan</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sc_cat_item_5d49ece91b836b00a27f437ead4bcb03</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-24 17:03:15</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <u_cost_center_owner/>
+        <u_request_level_approval>false</u_request_level_approval>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Onsite Workout Center Waiver and Access">63e1f3021bc3eb006d740d03cd4bcbcc</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5d49ece91b836b00a27f437ead4bcb03"/>
+    <fx_price action="delete_multiple" query="id=5d49ece91b836b00a27f437ead4bcb03"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>5d49ece91b836b00a27f437ead4bcb03</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-16 16:39:53</sys_created_on>
+        <sys_id>da3aa06d1b836b00a27f437ead4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-16 16:39:53</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>5d49ece91b836b00a27f437ead4bcb03</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-16 16:39:53</sys_created_on>
+        <sys_id>de3aa06d1b836b00a27f437ead4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-16 16:39:53</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

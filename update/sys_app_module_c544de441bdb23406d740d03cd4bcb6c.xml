@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Health and Wellness">30fecaa21b7663006d740d03cd4bcb57</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="cmn_schedule">name=Health and Wellness Due Dates^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="Health and Wellness Due Dates"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DETAIL</link_type>
+        <map_page/>
+        <mobile_title>Quarter Due Dates Schedule</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>cmn_schedule</name>
+        <order>1300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_dehp_health_well.admin</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-24 18:49:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c544de441bdb23406d740d03cd4bcb6c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Quarter Due Dates Schedule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_app_module_c544de441bdb23406d740d03cd4bcb6c</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-25 17:18:18</sys_updated_on>
+        <timeline_page/>
+        <title>Quarter Due Dates Schedule</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

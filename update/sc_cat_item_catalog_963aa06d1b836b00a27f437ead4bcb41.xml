@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="OnSite Workout Access and Waiver for Dean Health Plan">5d49ece91b836b00a27f437ead4bcb03</sc_cat_item>
+        <sc_catalog display_value="Health and Wellness Catalog">9def3e7f1b3a27006d740d03cd4bcb82</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-01-16 16:39:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>963aa06d1b836b00a27f437ead4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health and Wellness Catalog.OnSite Workout Access and Waiver</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_963aa06d1b836b00a27f437ead4bcb41</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-01-16 16:39:53</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

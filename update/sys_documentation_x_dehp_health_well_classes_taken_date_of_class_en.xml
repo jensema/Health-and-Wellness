@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="date_of_class" label="Date of Class" language="en" table="x_dehp_health_well_classes_taken">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>date_of_class</element>
+            <help/>
+            <hint/>
+            <label>Date of Class</label>
+            <language>en</language>
+            <name>x_dehp_health_well_classes_taken</name>
+            <plural>Date of Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>_bvanna</sys_created_by>
+            <sys_created_on>2019-01-11 16:59:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b4be363f1b3a27006d740d03cd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Date of Class</sys_name>
+            <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+            <sys_update_name>sys_documentation_x_dehp_health_well_classes_taken_date_of_class_en</sys_update_name>
+            <sys_updated_by>_bvanna</sys_updated_by>
+            <sys_updated_on>2019-01-11 16:59:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
