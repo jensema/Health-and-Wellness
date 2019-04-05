@@ -16,7 +16,7 @@
 <li><strong>10K or longer race:</strong> up to $50 reimbursement</li>
 </ul>
 <h3>Documentation required for reimbursement:</h3>
-<p>After completing the event, participants must submit the following:</p>
+<p>After completing the event, participants must submit the following&nbsp;by clicking the paperclip icon at the top of the request form:</p>
 <ul>
 <li><strong>Proof of total race fee(s) paid:</strong> The reimbursement will be for the total spent up to the limits listed above for participation in the race.</li>
 <li><strong>Proof of race completion:</strong> This can be your tag/numbers, event shirt, a printout of race finish time, or a picture of you at the finish line). There must be a logo, name and date to signify that the documentation applies to the race for which you are requesting reimbursement.</li>
@@ -63,7 +63,7 @@
         <sys_created_on>2019-01-11 18:15:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0befcbfb1b7a27006d740d03cd4bcb2b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Health and Wellness - Race Reimbursement</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>
@@ -71,7 +71,7 @@
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sc_cat_item_0befcbfb1b7a27006d740d03cd4bcb2b</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-01-29 16:08:49</sys_updated_on>
+        <sys_updated_on>2019-02-05 04:31:17</sys_updated_on>
         <template/>
         <type>item</type>
         <u_cost_center_owner/>

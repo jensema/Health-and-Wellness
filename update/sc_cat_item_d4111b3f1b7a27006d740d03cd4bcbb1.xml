@@ -11,7 +11,7 @@
         <delivery_time/>
         <description><![CDATA[<h2>Weight Watchers Reimbursement Form</h2>
 <p>Please complete the form below and submit it with your Weight Watchers reimbursement documentation.</p>
-<h3>Documentation Requirements (submit either set of documents):</h3>
+<h3>Documentation Requirements (submit either set of documents&nbsp;by clicking the paperclip icon at the top of the request form):</h3>
 <p><strong>Track your food/drink or exercise at least five days/week to get a $30 reimbursement per quarter (equals approx. 50% of your fees).</strong></p>
 <ul>
 <li><strong>Proof of Use:</strong> A copy of your daily summaries for either food or exercise tracking. We are unable to process reimbursements without proof of use.</li>
@@ -24,7 +24,7 @@
 <li><strong>Proof of Use:</strong> A copy of your official Weight Watchers Meeting weigh-ins or a signed meeting attendance sheet. We are unable to process reimbursements without proof of use.</li>
 <li><strong>Proof of Payment:</strong> Go to your Account Settings &ndash; Account Status &ndash; Print Billing History to show your payment amount.</li>
 </ul>
-<p><strong>For more information, refer to KB Article&nbsp;<a title="KB0010955" href="/nav_to.do?uri=/kb_view.do?sysparm_article=KB0010955" target="_blank">KB0010955</a></strong></p>]]></description>
+<p><strong>For more information, refer to KB Article&nbsp;<a title="KB0010955" href="/nav_to.do?uri=/kb_view.do?sysparm_article=KB0010958" target="_blank">KB0010958</a></strong></p>]]></description>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -65,7 +65,7 @@
         <sys_created_on>2019-01-11 18:20:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d4111b3f1b7a27006d740d03cd4bcbb1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Health and Wellness - Weight Watchers Reimbursement </sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>
@@ -73,7 +73,7 @@
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sc_cat_item_d4111b3f1b7a27006d740d03cd4bcbb1</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-01-29 16:08:32</sys_updated_on>
+        <sys_updated_on>2019-02-05 18:00:52</sys_updated_on>
         <template/>
         <type>item</type>
         <u_cost_center_owner/>

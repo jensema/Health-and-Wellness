@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Classes taken</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Classes taken</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">c28337126f130200b85fcb512e3ee449</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-02-05 02:25:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e762c331b5fa7406f3942e58d4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Classes taken</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_wizard_answer_7e762c331b5fa7406f3942e58d4bcb2e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-05 02:25:33</sys_updated_on>
+        <table/>
+        <target_url>x_dehp_health_well_classes_taken.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

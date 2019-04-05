@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Health and Wellness">ad0828731b9fa7406f3942e58d4bcbc3</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="sc_req_item">active=false^cat_item.sc_catalogsLIKE9def3e7f1b3a27006d740d03cd4bcb82^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_requesterDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="cat_item.sc_catalogs" goto="false" newquery="false" operator="LIKE" or="false" value="9def3e7f1b3a27006d740d03cd4bcb82"/>
+            <item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="u_requester" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Health and Wellness Requests that I've requested which are now closed</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Closed Requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sc_req_item</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-05 02:39:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c6696cb31b9fa7406f3942e58d4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Closed Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_app_module_c6696cb31b9fa7406f3942e58d4bcb82</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-02-05 02:39:36</sys_updated_on>
+        <timeline_page/>
+        <title>My Closed Requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

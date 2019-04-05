@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Health and Wellness">ad0828731b9fa7406f3942e58d4bcbc3</application>
+        <assessment/>
+        <content_page/>
+        <device_type>any</device_type>
+        <filter table="kb_knowledge">kb_knowledge_base=a1d9ba221bf663006d740d03cd4bcb44^workflow_state=published^EQ<item display_table="kb_knowledge_base" display_value="Health and Wellness Knowledge Base" endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="=" or="false" value="a1d9ba221bf663006d740d03cd4bcb44"/>
+            <item endquery="false" field="workflow_state" goto="false" newquery="false" operator="=" or="false" value="published"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Knowledge Base</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>kb_knowledge</name>
+        <order>0</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>$knowledge.do?sysparm_type_filter=all&amp;sysparm_kb=a1d9ba221bf663006d740d03cd4bcb44&amp;sysparm_category=3c9fb2661bf663006d740d03cd4bcbba&amp;browse_type=categories</query>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-05 02:34:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1d38ac731b9fa7406f3942e58d4bcbbc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Knowledge Base</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_app_module_1d38ac731b9fa7406f3942e58d4bcbbc</sys_update_name>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-04-05 14:47:29</sys_updated_on>
+        <timeline_page/>
+        <title>Knowledge Base</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

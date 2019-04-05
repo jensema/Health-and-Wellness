@@ -16,7 +16,7 @@
 <li><strong>20 - 29 participation days per quarter:</strong>&nbsp;up to $50 reimbursement</li>
 <li><strong>30+ participation days per quarter:</strong>&nbsp;up to $75 reimbursement</li>
 </ul>
-<p>To receive the quarterly incentive, participants must submit the following by the deadline to receive the incentive for each quarter:</p>
+<p>To receive the quarterly incentive, participants must submit the following by clicking the paperclip icon at the top of the request form by the deadline to receive the incentive for each quarter:</p>
 <ul>
 <li><strong>Proof of payment</strong>: A receipt, contract or bank statement for the fitness membership, classes, personal trainer, etc.</li>
 <li><strong>Proof of Use</strong>: You must show documentation that you used the membership, participated in the classes, or met with the personal trainer for at least 10 separate days in that quarter. Most fitness facilities can provide a print-out of your usage or you may have a staff member sign off on the dates with their name on the Fitness reimbursement form. We are unable to process reimbursements without proof of use.</li>
@@ -62,7 +62,7 @@
         <sys_created_on>2019-01-11 17:55:31</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8c0b8fb71b7a27006d740d03cd4bcbe8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Health and Wellness - Fitness Reimbursement</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>
@@ -70,7 +70,7 @@
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sc_cat_item_8c0b8fb71b7a27006d740d03cd4bcbe8</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-01-29 16:09:31</sys_updated_on>
+        <sys_updated_on>2019-02-05 04:31:06</sys_updated_on>
         <template/>
         <type>item</type>
         <u_cost_center_owner/>

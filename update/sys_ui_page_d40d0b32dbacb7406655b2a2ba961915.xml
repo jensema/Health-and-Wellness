@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>catalog</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_dehp_health_well_welcome_to_hw_catalog.do</endpoint>
+        <html><![CDATA[<!-- Contains the HTML and CSS necessary for all styling and layout. Feel free to modify if need be. -->
+<!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"/>
+<style type="text/css">
+    .homepage-quicklinks {
+        background-color: #ffffff;
+        font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+    }
+    .text-info {
+        color: #31708f;
+    }
+    a.text-info:hover, a.text-info:focus {
+        color: #245269;
+    }
+    .text-success {
+        color: #5cb85c;
+    }
+    a.text-success:hover, a.text-success:focus {
+        color: #449d44;
+    }
+    .text-warning {
+        color: #f0ad4e;
+    }
+    a.text-warning:hover, a.text-warning:focus {
+        color: #ec971f;
+    }
+    .text-danger {
+        color: #d9534f;
+    }
+    a.text-danger:hover, a.text-danger:focus {
+        color: #c9302c;
+    }
+    .text-muted {
+        color: #979797;
+    }
+    a.circle_icon {
+        display: block;
+        padding: 20px 0px 20px 70px;
+        position: relative;
+    }
+    a.circle_icon .fa {
+        position: absolute;
+        left: 0px;
+        top: 10px;
+    }
+    a.circle_icon h3 {
+        font-weight: 300 !important;
+        padding: 0;
+        margin: 0 0 10px 0;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+</style>
+
+<h1 style="color:#717171;font-size:3em;text-align:center">Health and Wellness</h1>
+
+<div class="homepage-quicklinks" style="background-size: initial; background-position: center center; padding: 0px 15px 0px 15px;">
+	<div>
+		<div class="row">
+			<div class="col-sm-3 col-md-3"/>
+			<div class="col-sm-3 col-md-3">
+				<span>
+					<div>
+						<div>
+							<a class="circle_icon text-success" target="" href="/$knowledge.do?sysparm_kb=a1d9ba221bf663006d740d03cd4bcb44">
+								<span class="fa fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x"/>
+									<i class="fa fa-book fa-stack-1x fa-inverse"/>
+								</span> 
+								<h3>Health and Wellness KB</h3>
+								<span class="text-muted">Browse and search for Health and Wellness related articles</span> 
+							</a>
+						</div>
+					</div>
+				</span>
+			</div>
+			<div class="col-sm-3 col-md-3">
+				<span>
+					<div>
+						<div>
+							<a class="circle_icon text-warning" target="" href="sc_req_item_list.do?sysparm_query=active%3Dtrue%5Ecat_item.sc_catalogsLIKE9def3e7f1b3a27006d740d03cd4bcb82%5Eopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe%5EORu_requesterDYNAMIC90d1921e5f510100a9ad2572f2b477fe%5EEQ">
+								<span class="fa fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x"/>
+									<i class="fa fa-diagnoses fa-stack-1x fa-inverse"/>
+								</span> 
+								<h3>My Compliance Records</h3>
+								<span class="text-muted">View a list of your open compliance requests</span> 
+							</a>
+						</div>
+					</div>
+				</span>
+			</div>
+			<div class="col-sm-3 col-md-3"/>
+		</div>
+	</div>
+</div>]]></html>
+        <name>welcome_to_hw_catalog</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>_ejense</sys_created_by>
+        <sys_created_on>2019-04-05 15:17:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d40d0b32dbacb7406655b2a2ba961915</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>welcome_to_hw_catalog</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_ui_page_d40d0b32dbacb7406655b2a2ba961915</sys_update_name>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-04-05 15:32:03</sys_updated_on>
+    </sys_ui_page>
+</record_update>

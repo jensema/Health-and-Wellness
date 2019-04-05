@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
     <sc_category action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description/>
+        <description>Various forms and waivers</description>
         <entitlement_script/>
         <header_icon/>
         <homepage_image>16f235d61b1fe740a27f437ead4bcb8f</homepage_image>
@@ -11,7 +11,7 @@
         <location/>
         <mobile_hide_description>false</mobile_hide_description>
         <mobile_picture/>
-        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <mobile_subcategory_render_type>card</mobile_subcategory_render_type>
         <module/>
         <order>0</order>
         <parent/>
@@ -23,15 +23,15 @@
         <sys_created_on>2019-01-11 17:31:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>191687b31b7a27006d740d03cd4bcba0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Misc.</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sc_category_191687b31b7a27006d740d03cd4bcba0</sys_update_name>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-01-31 16:08:52</sys_updated_on>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-04-05 14:39:28</sys_updated_on>
         <title>Misc.</title>
     </sc_category>
     <sys_attachment action="INSERT_OR_UPDATE">

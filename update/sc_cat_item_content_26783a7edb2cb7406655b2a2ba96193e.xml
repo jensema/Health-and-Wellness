@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_content">
+    <sc_cat_item_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Misc.">191687b31b7a27006d740d03cd4bcba0</category>
+        <content_type>external</content_type>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time/>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>1e528ffedb2cb7406655b2a2ba9619ca</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <kb_article display_value="KB0010971 v1.0">10545b41db54b300cdd67e88f49619f0</kb_article>
+        <list_price>0</list_price>
+        <location/>
+        <meta>Fitness&#13;
+work out&#13;
+gym</meta>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <module/>
+        <name>Alternate Fitness Participation Tracking Form</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("/kb_view.do?sysparm_article=KB0010971&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>9def3e7f1b3a27006d740d03cd4bcb82</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>The form to submit for participating in external fitness programs.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_content</sys_class_name>
+        <sys_created_by>_ejense</sys_created_by>
+        <sys_created_on>2019-04-05 13:51:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>26783a7edb2cb7406655b2a2ba96193e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Alternate Fitness Participation Tracking Form</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sc_cat_item_content_26783a7edb2cb7406655b2a2ba96193e</sys_update_name>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-04-05 14:44:54</sys_updated_on>
+        <target>internal</target>
+        <template/>
+        <type>item</type>
+        <u_cost_center_owner/>
+        <u_request_level_approval>false</u_request_level_approval>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <url>/kb_view.do?sysparm_article=KB0010971</url>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=26783a7edb2cb7406655b2a2ba96193e"/>
+    <fx_price action="delete_multiple" query="id=26783a7edb2cb7406655b2a2ba96193e"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>26783a7edb2cb7406655b2a2ba96193e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_ejense</sys_created_by>
+        <sys_created_on>2019-04-05 13:51:11</sys_created_on>
+        <sys_id>d139b2bedb2cb7406655b2a2ba9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-04-05 13:51:11</sys_updated_on>
+        <table>sc_cat_item_content</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>26783a7edb2cb7406655b2a2ba96193e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_ejense</sys_created_by>
+        <sys_created_on>2019-04-05 13:51:11</sys_created_on>
+        <sys_id>5939b2bedb2cb7406655b2a2ba9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-04-05 13:51:11</sys_updated_on>
+        <table>sc_cat_item_content</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height>32</image_height>
+        <image_width>32</image_width>
+        <size_bytes>859</size_bytes>
+        <size_compressed>882</size_compressed>
+        <state/>
+        <sys_created_by>_ejense</sys_created_by>
+        <sys_created_on>2019-04-05 14:31:07</sys_created_on>
+        <sys_id>1e528ffedb2cb7406655b2a2ba9619ca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>_ejense</sys_updated_by>
+        <sys_updated_on>2019-04-05 14:31:07</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_content</table_name>
+        <table_sys_id>26783a7edb2cb7406655b2a2ba96193e</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="1e528ffedb2cb7406655b2a2ba9619ca">1e528ffedb2cb7406655b2a2ba9619ca</sys_attachment>
+        <sys_created_by>_ejense</sys_created_by>
+        <sys_created_on>2019-04-05 14:31:07</sys_created_on>
+        <sys_id>5e528ffedb2cb7406655b2a2ba9619ca</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AVsDpPyJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAsxJREFUWEfN18urjVEYx/GNCXKNJLkdl5C7DFwG7gbKRBJJuSZRSplQFGVmZGAgQ0KUgTu5Rkb+AJQJ5c4p9/v3t/b7bM9599pr78174lefzlnvXnvtZ5+11vuuU/pfMhS30YoP+IyvznfnZxPU/wg6I5mbiA1QlN1I5inUcQn6ojd6NqAX1Ff6QO/th/4Ygn3QuGeQjBUwNbSKy0Zo3MuhlcgzqOPk0Cou66Fxr4ZWOd2zn21iBUwKrd/pBL3B/6ljNB3doP4+a+EL2A4tzDsYrAuW51DHCaFVzg40u+q/YA4sa6Dre9AFW/Axu3YPlVgB40OrHOuc8h7vMm/wCDNgUQG3oG/7GDuhab6Pu6jkBfIFFJHF0G64Do0vWpAjMBKVtFcByl7Yh5t1aBMrYFxoFZeFyK+jE6jKS+QLmIfTuIAr0Eq+hhuO2rqu19XvGAZBGQDbXeYhtGOqEivgAPybG7UM2o5+3uUTpiCaV1AnX4D2/zTMgrbWXMzP6E8boz4dEZv3zaiZWAF/mgVoaN59XqOIAmLz/gDRefexAvw21JNtZcKKzHLMhuZdi9J/uM37UiRjBfhb8UH4wWr5gUWoNe+rUfdxrNuo3uAL0C31MI7iODSPJyO2oda8j4Fu12eRjBUwMbSaSw/U2u/2MDqHZP6mgOnwH+73uxVwPrQSeQt1zJ8HOqAr7Pilb5s/YK6CL2ATLFaA7pLJxArQ4eEb/OBGp2YtLmUXNP+6bc/UBRcr4GJoJWJT4I9kW+GP5kaHDhWsLaho6w4r/1qVhguwbVj0mVCP3YYKsFtx0afiDdC4l0IrEXsa6uFTZOxYXncXPIE66hg9FqMwHJrbFuhfNx2tdLbT835g9lNtXdfr6is6bo2Gniv7oXFPIRlVqI7tRTslGX0jPUi0GHXr1DbTatc21BYz+YH9a36n6GakcTTeIdT95/QfpVT6BbUzYsy49zqLAAAAAElFTkSuQmCCnyMvO1sDAAA=</data>
+        <length>1164</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="1e528ffedb2cb7406655b2a2ba9619ca">1e528ffedb2cb7406655b2a2ba9619ca</sys_attachment>
+        <sys_created_by>_ejense</sys_created_by>
+        <sys_created_on>2019-04-05 14:31:07</sys_created_on>
+        <sys_id>de528ffedb2cb7406655b2a2ba9619ca</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allows everyone access to new records, records they opened, or if it's one they are listed as "Requested For".&#13;
+Allows ITIL users to read all but the 'Reimbursement' requests&#13;
+Allows Health and Wellness access to the 'Reimbursement' requests</description>
+        <name>sc_req_item</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-02-05 03:36:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b67630731bdfa7406f3942e58d4bcb68</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>sc_req_item</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_security_acl_b67630731bdfa7406f3942e58d4bcb68</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-03-12 15:21:31</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
