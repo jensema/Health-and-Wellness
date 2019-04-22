@@ -31,13 +31,13 @@
         <sys_created_by>_ejense</sys_created_by>
         <sys_created_on>2019-04-03 21:05:33</sys_created_on>
         <sys_id>34794256db24f340cdd67e88f4961995</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>_ejense</sys_updated_by>
-        <sys_updated_on>2019-04-03 21:07:43</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>mthomq</sys_updated_by>
+        <sys_updated_on>2019-04-04 18:17:48</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
         <u_reviewed>false</u_reviewed>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Onsite Workout Center Waiver and Access">63e1f3021bc3eb006d740d03cd4bcbcc</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

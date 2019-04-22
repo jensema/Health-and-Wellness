@@ -17,7 +17,7 @@
         <icon>1e528ffedb2cb7406655b2a2ba9619ca</icon>
         <ignore_price>true</ignore_price>
         <image/>
-        <kb_article display_value="KB0010971 v1.0">10545b41db54b300cdd67e88f49619f0</kb_article>
+        <kb_article display_value="">10545b41db54b300cdd67e88f49619f0</kb_article>
         <list_price>0</list_price>
         <location/>
         <meta>Fitness&#13;
@@ -55,7 +55,7 @@ gym</meta>
         <sys_created_on>2019-04-05 13:51:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>26783a7edb2cb7406655b2a2ba96193e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Alternate Fitness Participation Tracking Form</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>

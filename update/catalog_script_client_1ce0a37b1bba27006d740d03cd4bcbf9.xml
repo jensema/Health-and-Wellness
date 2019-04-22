@@ -86,6 +86,7 @@ try{
         <sys_updated_on>2019-01-14 22:06:47</sys_updated_on>
         <table/>
         <type>onChange</type>
+        <ui_type>0</ui_type>
         <variable_set display_value="Quarterly Options">c6fc837b1b7a27006d740d03cd4bcbcf</variable_set>
         <view/>
     </catalog_script_client>
