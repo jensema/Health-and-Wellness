@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>render_health_wellness_widget</name>
+        <scoped_name>x_dehp_health_well_render_health_wellness_widget</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 18:56:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>faea331adb4abb006655b2a2ba9619bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>render_health_wellness_widget</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_ui_macro_faea331adb4abb006655b2a2ba9619bb</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-17 20:29:03</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate>
+		var catItem = new GlideRecord('sc_cat_item');
+		catItem.get('${jvar_cat_item_id}'); // Incident Record producer.
+	</g2:evaluate>
+	<style type="text/css">
+	.widget-health_wellness {
+		background-color: #ffffff;
+		font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		padding: 0px 15px 0px 15px;
+	}
+	a.hw_widget {
+		display: block;
+		padding: 20px 0px 40px 100px;
+		position: relative;
+		color: #979797;
+	}
+	a.hw_widget h4 {
+		font-weight: 300 !important;
+		padding: 0;
+		margin: 0 0 3px 0;
+		color: #000000;
+	}
+	a.hw_widget hr {
+		color: #d9534f;
+		border-color: #d9534f;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	a.hw_widget img {
+		height: 90px;
+		position: absolute;
+		left: 0px;
+		top: 10px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+
+	</style>
+	<div class="widget-health_wellness" style="background-size: initial; background-position: center center;">
+		<div class="row">
+			<div class="col-lg-12">
+				<div>
+					<a class="hw_widget" href="/com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=$[catItem.sys_id]&amp;sysparm_catalog_view=catalog_health_and_wellness_catalog">
+						<span onmouseover="popDiv(event, '$[catItem.sys_id]')" onmouseout="lockPopup(event)" onclick="window.open('/com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=$[catItem.sys_id]&amp;sysparm_catalog_view=catalog_health_and_wellness_catalog', '_self', false);">
+							<img src="$[catItem.getDisplayValue('picture')]" />
+						</span>
+						<h4>$[catItem.name]</h4>
+						<hr/>
+						<span>$[catItem.short_description]</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

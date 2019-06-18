@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wellness Walk Prize Entries" max_length="40" name="x_dehp_health_well_wellness_walk_prize_entries" type="collection">
+        <element label="Month - Year" max_length="40" name="month_year" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Prize Won" max_length="40" name="prize_won" type="boolean"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_dehp_health_well_register_wellness_walk.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<!--Replace the 'cat_item_id' with the sys_id of the item that will be rendered.  -->
+	<g:macro_invoke macro="x_dehp_health_well_render_health_wellness_widget" cat_item_id="f34767fcdb71f3406655b2a2ba961926" />
+</j:jelly>]]></html>
+        <name>register_wellness_walk</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 18:56:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6d79ff96db4abb006655b2a2ba961906</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>register_wellness_walk</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_ui_page_6d79ff96db4abb006655b2a2ba961906</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-17 18:57:04</sys_updated_on>
+    </sys_ui_page>
+</record_update>

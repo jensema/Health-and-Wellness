@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dehp_health_well.WellnessWalksUtil</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>WellnessWalksUtil</name>
+        <script><![CDATA[var WellnessWalksUtil = Class.create();
+WellnessWalksUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	createEntry:function() {
+		var now = new GlideDate();
+		var monthYear = now.getMonthNoTZ() + " - " + now.getYearNoTZ();
+		var user = this.getParameter('sysparm_user_name');
+		var claim = new GlideRecord('x_dehp_health_well_wellness_walk_prize_entries');
+		claim.newRecord();
+		claim.setValue('name', user);
+		claim.setValue('month_year',monthYear);
+		claim.update();
+		var claimId = claim.getValue('sys_id');
+		
+		var walks = new GlideRecord('x_dehp_health_well_wellness_walks');
+		walks.addEncodedQuery('claimedISEMPTY^name='+user);
+		walks.query();
+		
+		var i = 0;
+		if(walks.hasNext()){
+			while (i < 8){
+				walks.next();
+				walks.setValue('claimed', now);
+				walks.setValue('entry', claimId);
+				walks.update();
+				i++;
+			}
+		}
+		return true;
+	},
+	
+	createWalk:function() {
+		try{
+			var walkDateTime = new GlideDateTime(this.getParameter('sysparm_date'));
+			var walkDate = new GlideDate();
+			walkDate = walkDateTime.getDate();
+			var now = new GlideDate();
+			
+			if (now.getValue()<walkDate.getValue())	return false;
+			
+			var user = this.getParameter('sysparm_user_name');
+			var answer = true;
+			
+			var dateCheck = new GlideRecord('x_dehp_health_well_wellness_walks');
+			dateCheck.addQuery('name', user);
+			dateCheck.query();
+			
+			var testDateTime;
+			var testDate = new GlideDate();
+			
+			while (dateCheck.next()){
+				testDateTime = new GlideDateTime(dateCheck.getValue('date_time'));
+				testDate = testDateTime.getDate();
+				if (testDate.getValue() == walkDate.getValue()){
+					return false;
+				}
+			}
+			
+			return answer;
+			
+		}
+	catch(e){
+		return e;}
+	},
+		type: 'WellnessWalksUtil'
+		
+	});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 15:04:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a21103d2db86bb006655b2a2ba9619e3</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>WellnessWalksUtil</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sys_script_include_a21103d2db86bb006655b2a2ba9619e3</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-18 16:21:45</sys_updated_on>
+    </sys_script_include>
+</record_update>

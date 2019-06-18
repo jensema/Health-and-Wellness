@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Misc.">191687b31b7a27006d740d03cd4bcba0</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time/>
+        <description><![CDATA[<p>To encourage our employees to get out and be active, we are proud to continue with our successful wellness walk program. Employees can complete a short walk during a time that works best for their work schedule.</p>
+<p><strong>For your walk to count, it must be:</strong></p>
+<ul>
+<li>10 minutes (but no longer than 15 minutes unless you are on your lunch)</li>
+<li>During work hours</li>
+</ul>
+<p>A total of 15 separate walks must be completed to be entered to win (max. 1 walk per day).</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>3621982adb8abb006655b2a2ba961919</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>2019 Alternative Wellness Walk Form</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture>52415c2adb8abb006655b2a2ba9619e7</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f34767fcdb71f3406655b2a2ba961926&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <roles/>
+        <sc_catalogs>9def3e7f1b3a27006d740d03cd4bcb82</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.name = gs.getUserID();]]></script>
+        <short_description>2019 Alternative Wellness Walk Form</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-05-31 15:27:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f34767fcdb71f3406655b2a2ba961926</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>2019 Alternative Wellness Walk Form</sys_name>
+        <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
+        <sys_update_name>sc_cat_item_producer_f34767fcdb71f3406655b2a2ba961926</sys_update_name>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-17 20:33:13</sys_updated_on>
+        <table_name>x_dehp_health_well_wellness_walks</table_name>
+        <template/>
+        <type>item</type>
+        <u_cost_center_owner/>
+        <u_request_level_approval>false</u_request_level_approval>
+        <u_use_item_task_stages>true</u_use_item_task_stages>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=f34767fcdb71f3406655b2a2ba961926"/>
+    <fx_price action="delete_multiple" query="id=f34767fcdb71f3406655b2a2ba961926"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>f34767fcdb71f3406655b2a2ba961926</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-05-31 15:27:48</sys_created_on>
+        <sys_id>7a586330dbb1f3406655b2a2ba961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-05-31 15:27:48</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>f34767fcdb71f3406655b2a2ba961926</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-05-31 15:27:48</sys_created_on>
+        <sys_id>3e586330dbb1f3406655b2a2ba961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-05-31 15:27:48</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#202020</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height>74</image_height>
+        <image_width>74</image_width>
+        <size_bytes>2142</size_bytes>
+        <size_compressed>2165</size_compressed>
+        <state/>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 20:32:42</sys_created_on>
+        <sys_id>3621982adb8abb006655b2a2ba961919</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-17 20:32:43</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>f34767fcdb71f3406655b2a2ba961926</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="3621982adb8abb006655b2a2ba961919">3621982adb8abb006655b2a2ba961919</sys_attachment>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 20:32:42</sys_created_on>
+        <sys_id>3e21982adb8abb006655b2a2ba961919</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2876</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="3621982adb8abb006655b2a2ba961919">3621982adb8abb006655b2a2ba961919</sys_attachment>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 20:32:42</sys_created_on>
+        <sys_id>be21982adb8abb006655b2a2ba961919</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#202020</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height>74</image_height>
+        <image_width>74</image_width>
+        <size_bytes>2142</size_bytes>
+        <size_compressed>2165</size_compressed>
+        <state/>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 20:33:13</sys_created_on>
+        <sys_id>52415c2adb8abb006655b2a2ba9619e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>_bvanna</sys_updated_by>
+        <sys_updated_on>2019-06-17 20:33:13</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>f34767fcdb71f3406655b2a2ba961926</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="52415c2adb8abb006655b2a2ba9619e7">52415c2adb8abb006655b2a2ba9619e7</sys_attachment>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 20:33:13</sys_created_on>
+        <sys_id>92415c2adb8abb006655b2a2ba9619e7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2876</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="52415c2adb8abb006655b2a2ba9619e7">52415c2adb8abb006655b2a2ba9619e7</sys_attachment>
+        <sys_created_by>_bvanna</sys_created_by>
+        <sys_created_on>2019-06-17 20:33:13</sys_created_on>
+        <sys_id>16415c2adb8abb006655b2a2ba9619e7</sys_id>
+    </sys_attachment_doc>
+</record_update>

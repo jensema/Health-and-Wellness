@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wellness Walks" max_length="40" name="x_dehp_health_well_wellness_walks" type="collection">
+        <element label="Building" max_length="32" name="building" reference="cmn_location" reference_qual="u_active=true^EQ" reference_qual_condition="u_active=true^EQ" type="reference"/>
+        <element label="Claimed" max_length="40" name="claimed" type="glide_date"/>
+        <element label="Date/Time" max_length="40" name="date_time" type="glide_date_time"/>
+        <element label="Prize Entry" max_length="32" name="entry" reference="x_dehp_health_well_wellness_walk_prize_entries" type="reference"/>
+        <element display="true" label="Name" max_length="32" name="name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="entry"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="building"/>
+        </index>
+    </element>
+</database>
