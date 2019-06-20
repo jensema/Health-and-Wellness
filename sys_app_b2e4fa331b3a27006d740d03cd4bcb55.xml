@@ -23,14 +23,14 @@
         <sys_created_by>_bvanna</sys_created_by>
         <sys_created_on>2019-02-05 02:25:26</sys_created_on>
         <sys_id>b2e4fa331b3a27006d740d03cd4bcb55</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-18 17:54:33</sys_updated_on>
+        <sys_updated_on>2019-06-20 18:03:41</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </sys_app>
 </record_update>
