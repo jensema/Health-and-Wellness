@@ -51,7 +51,8 @@
         <sc_catalogs>9def3e7f1b3a27006d740d03cd4bcb82</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script><![CDATA[current.name = gs.getUserID();]]></script>
+        <script><![CDATA[current.name = gs.getUserID();
+producer.redirect="/catalog_home.do?v=1&sysparm_catalog=9def3e7f1b3a27006d740d03cd4bcb82&sysparm_catalog_view=catalog_Health_and_Wellness_Catalog";]]></script>
         <short_description>2019 Alternative Wellness Walk Form</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -60,7 +61,7 @@
         <sys_created_on>2019-05-31 15:27:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f34767fcdb71f3406655b2a2ba961926</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>2019 Alternative Wellness Walk Form</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>
@@ -68,7 +69,7 @@
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sc_cat_item_producer_f34767fcdb71f3406655b2a2ba961926</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-17 20:33:13</sys_updated_on>
+        <sys_updated_on>2019-06-18 18:00:45</sys_updated_on>
         <table_name>x_dehp_health_well_wellness_walks</table_name>
         <template/>
         <type>item</type>

@@ -43,11 +43,14 @@ WellnessWalksUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 			var walkDate = new GlideDate();
 			walkDate = walkDateTime.getDate();
 			var now = new GlideDate();
+			var dateCutOff = new GlideDate();
+			dateCutOff.setValue('2019-06-01');
 			
-			if (now.getValue()<walkDate.getValue())	return false;
+			if (now.getValue()<walkDate.getValue())	return "Future Date";
+			if (walkDate.getValue()<dateCutOff.getValue()) return "Before CutOff";
 			
 			var user = this.getParameter('sysparm_user_name');
-			var answer = true;
+			var answer = "true";
 			
 			var dateCheck = new GlideRecord('x_dehp_health_well_wellness_walks');
 			dateCheck.addQuery('name', user);
@@ -60,7 +63,7 @@ WellnessWalksUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 				testDateTime = new GlideDateTime(dateCheck.getValue('date_time'));
 				testDate = testDateTime.getDate();
 				if (testDate.getValue() == walkDate.getValue()){
-					return false;
+					return "Current Date Used";
 				}
 			}
 			
@@ -78,7 +81,7 @@ WellnessWalksUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_on>2019-06-17 15:04:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a21103d2db86bb006655b2a2ba9619e3</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>WellnessWalksUtil</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy>read</sys_policy>
@@ -86,6 +89,6 @@ WellnessWalksUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sys_script_include_a21103d2db86bb006655b2a2ba9619e3</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-18 17:53:03</sys_updated_on>
+        <sys_updated_on>2019-06-20 15:41:10</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -36,10 +36,11 @@ walks.query();
 <j2:while test="$[walks.next()]">
 <g2:evaluate>
 var employeeCount = $[walks.getAggregate('COUNT')]
-var showButton = employeeCount >=8
+var showButton = employeeCount >=15
 </g2:evaluate>
 </j2:while>
-	<h3> You have $[employeeCount.toFixed(0)] unclaimed completed walks! </h3>
+	<h4>You have $[employeeCount.toFixed(0)] unclaimed walks!</h4>
+	<p>You will need at least 15 to be entered to win one of the monthly prize drawings. Winners are drawn at random at the end of each month. Winners will be contacted by email about receiving their prize. For questions,  please email&#160;<a href="mailto:Dhp.Health@deancare.com">Dhp.Health@deancare.com</a></p>
 <j2:if test="$[showButton]">
 	<p><button class="favorite styled" type="button" onclick="claimWalks()">Click Here to enter for a chance to win!</button></p>
 </j2:if>
@@ -51,7 +52,7 @@ var showButton = employeeCount >=8
         <sys_created_on>2019-06-13 17:41:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3f730f89db4ab7006655b2a2ba961992</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>95</sys_mod_count>
         <sys_name>alternative_walks_claim_page</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>
@@ -59,6 +60,6 @@ var showButton = employeeCount >=8
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sys_ui_page_3f730f89db4ab7006655b2a2ba961992</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-17 16:00:37</sys_updated_on>
+        <sys_updated_on>2019-06-20 17:42:09</sys_updated_on>
     </sys_ui_page>
 </record_update>

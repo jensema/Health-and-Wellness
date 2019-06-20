@@ -31,12 +31,20 @@
 
 function walkResponse(response){
 	var answer = response.responseXML.documentElement.getAttribute("answer");
-alert(answer);
-	if (answer=='false'){
+	g_form.clearMessages();
+	if (answer!='true'){
 		g_form.clearValue('date_time');
-		g_form.addErrorMessage("A walk on this date has already been submitted or is a future date.  Please pick a new Date/Time");
+		switch(answer){
+			case "Future Date":
+				g_form.addErrorMessage("The date selected is in the future.  Please pick a new Date/Time");
+				break;
+			case "Before CutOff":
+				g_form.addErrorMessage("The date is prior to the earliest allowed. If you would like to complete your current paper copy of the form they will accepted through Aug.");
+				break;
+			case "Current Date Used":
+				g_form.addErrorMessage("A walk on this date has already been submitted.  Please pick a new Date/Time");
+		}
 	}
-	
 }
 //# sourceURL=processClaims.js]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -45,7 +53,7 @@ alert(answer);
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0e73142edb8abb006655b2a2ba96195c</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Validate date/time</sys_name>
         <sys_overrides/>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
@@ -54,7 +62,7 @@ alert(answer);
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>catalog_script_client_0e73142edb8abb006655b2a2ba96195c</sys_update_name>
         <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-18 16:22:07</sys_updated_on>
+        <sys_updated_on>2019-06-20 15:58:29</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>
