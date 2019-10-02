@@ -51,16 +51,16 @@
         <sys_created_by>_bvanna</sys_created_by>
         <sys_created_on>2019-05-31 14:54:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b1a06f78db71f3406655b2a2ba961968</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>b0a0417c1b9633404edca8e82d4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Building</sys_name>
         <sys_package display_value="Health and Wellness" source="x_dehp_health_well">b2e4fa331b3a27006d740d03cd4bcb55</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Health and Wellness">b2e4fa331b3a27006d740d03cd4bcb55</sys_scope>
         <sys_update_name>sys_dictionary_x_dehp_health_well_wellness_walks_building</sys_update_name>
-        <sys_updated_by>_bvanna</sys_updated_by>
-        <sys_updated_on>2019-06-13 20:14:38</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-24 23:46:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
